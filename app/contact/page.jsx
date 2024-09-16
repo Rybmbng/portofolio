@@ -91,7 +91,7 @@ const Contact = () => {
 
                             <Textarea className="h-[200px]" placeholder="Type your message" name="message" required />
 
-                            <div className="flex gap-4">
+                           
                                 <Button 
                                     onClick={() => setSubmitMethod('whatsapp')} 
                                     variant={submitMethod === 'whatsapp' ? "primary" : "outline"}
@@ -104,7 +104,7 @@ const Contact = () => {
                                 >
                                     Send via Email
                                 </Button>
-                            </div>
+
 
                         </form>
                     </div>
