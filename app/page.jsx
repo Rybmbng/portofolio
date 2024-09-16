@@ -6,9 +6,9 @@ import { FiDownload } from "react-icons/fi";
 
 import { motion } from "framer-motion";
 // {Component}
-import Social from "@/components/social";
-import Photo from "@/components/photo";
-import Stats from "@/components/stats";
+import Social from "@/components/Social";
+import Photo from "@/components/Photo";
+import Stats from "@/components/Stats";
 
 const Home = () => {
   const texts = ["Software Developer", "IoT Engineer","Android Developers", "IT Engineer",];
