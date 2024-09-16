@@ -6,7 +6,7 @@ import { FiDownload } from "react-icons/fi";
 
 import { motion } from "framer-motion";
 // {Component}
-import Social from "@/components/Social";
+import Social from "@/components/social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
