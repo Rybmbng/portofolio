@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 // {Component}
 import Social from "@/components/social";
 import Photo from "@/components/photo";
-import Stats from "@/components/Stats";
+import Stats from "@/components/stats";
 
 const Home = () => {
   const texts = ["Software Developer", "IoT Engineer","Android Developers", "IT Engineer",];
