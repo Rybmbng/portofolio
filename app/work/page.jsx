@@ -25,7 +25,7 @@ const projects = [
         title: 'Simpel Game With Javascript',
         description: 'a text-based game created with JavaScript. Players have attributes such as XP, health, and gold, and can fight against monsters such as slimes, fanged beasts, and dragons. Players can perform actions such as buying weapons, attacking, or dodging. This game has several locations such as town square, store, and cave, where each location offers different action options. Apart from that, there is also an Easter egg feature in the form of a number guessing game.',
         stack:[{name:"Html 5"}, {name:"Css 3"}, {name:"Javascript"}],
-        image:'/assets/project/simpel-js.png',
+        image:'/assets/project/simple-js.png',
         live: "https://codepen.io/Rybmbng/pen/VwJoBWo",
         github: "https://github.com/Rybmbng/simpel-game-with-javascript",
     },
