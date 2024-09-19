@@ -22,34 +22,33 @@ const projects = [
     {
         num: '01',
         category: 'frontend',
-        title: 'Project 1',
-        description: 'loremsasd.',
+        title: 'Simpel Game With Javascript',
+        description: 'a text-based game created with JavaScript. Players have attributes such as XP, health, and gold, and can fight against monsters such as slimes, fanged beasts, and dragons. Players can perform actions such as buying weapons, attacking, or dodging. This game has several locations such as town square, store, and cave, where each location offers different action options. Apart from that, there is also an Easter egg feature in the form of a number guessing game.',
         stack:[{name:"Html 5"}, {name:"Css 3"}, {name:"Javascript"}],
-        image:'/assets/project/img1.JPG',
-        live: "",
-        github: "",
+        image:'/assets/project/simpel-js.png',
+        live: "https://codepen.io/Rybmbng/pen/VwJoBWo",
+        github: "https://github.com/Rybmbng/simpel-game-with-javascript",
     },
     {
         num: '02',
-        category: 'FullStack',
-        title: 'Project 2',
-        description: 'loremsasd.',
-        stack:[{name:"Php"}, {name:"Bootstrap"}, {name:"mysqli"}],
-        image:'/assets/project/img2.png',
-        live: "",
-        github: "",
+        category: 'frontend',
+        title: 'Random Quotes With React',
+        description: 'This website is a simple application that displays random quotes. When a user opens a page or clicks a button, a new quote appears. This app requires JavaScript to run properly and focuses on a simple, lightweight experience. This website was probably built using a modern framework such as React or Next.js',
+        stack:[{name:"React.js"}, {name:"Node.js"}, {name:"Api"}],
+        image:'/assets/project/random.png',
+        live: "https://random-quotes-gamma-tawny.vercel.app/",
+        github: "https://github.com/Rybmbng/Random-Quotes.git",
     },
     {
         num: '03',
-        category: 'IOT',
-        title: 'Project 3',
-        description: 'loremsasd.',
-        stack:[{name:"Arduino"}, {name:"Esp8266"}, {name:"C++"}],
-        image:'/assets/project/img3.png',
-        live: "",
-        github: "",
-    },
-    
+        category: 'Embedded Project',
+        title: 'Vending Machine Rice',
+        description: 'This Arduino Mega based rice vending machine is an automated solution for rice distribution, utilizing several integrated electronic components and sensors to produce an efficient and easy to use system',
+        stack:[{name:"Arduino"}, {name:"C++"}, {name:"Fritzing"}],
+        image:'/assets/project/beras.png',
+        live: "#",
+        github: "https://github.com/Rybmbng/Vending-Machine-Rice.git",
+    },    
     
 ]
 
@@ -77,7 +76,6 @@ const Work = () =>{
                             </div>
                             <h2 className="text-[42px] font-bold leading-none text-white
                             group-hover:text-accent transition-all duratio-500 capitalize">{project.category}</h2>
-                            project
                             <p className="text-white/60">{project.description}</p>
                             <ul className="flex gap-4">
                                 {project.stack.map((item,index)=>{

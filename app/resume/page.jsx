@@ -8,6 +8,7 @@ import Link from "next/link";
 import { IoEyeSharp } from "react-icons/io5";
 import { FaFreeCodeCamp } from "react-icons/fa";
 import  Image  from "next/image";
+import { motion } from "framer-motion";
 
 const about=
     {
@@ -148,12 +149,15 @@ const skill = {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Tooltip,TooltipContent,TooltipProvider,TooltipTrigger } from "@radix-ui/react-tooltip";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { motion } from "framer-motion";
 
 const Resume = () =>{
     return(
-        <motion.div initial={{opacity:0}} animate={{opacity:1, transition: .4, ease: "easeIn"}}
-        className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0">
+    <motion.section 
+        initial={{opacity:0}}
+        animate={{opacity:1,transition:.4,ease:"easeIn"}}
+
+        className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+        >
          <div className="container mx-auto">
             <Tabs defaultValue="education" className="flex flex-col xl:flex-row gap-[60px]">
                 <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
@@ -162,6 +166,12 @@ const Resume = () =>{
                     <TabsTrigger value="skills">Skills</TabsTrigger>
                     <TabsTrigger value="about">About Me</TabsTrigger>
                 </TabsList>
+                <motion.div 
+        initial={{opacity:0}}
+        animate={{opacity:1,transition:.4,ease:"easeIn"}}
+
+        className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+        >
                 <ScrollArea className="min-h-[70vh] w-full">
                     <TabsContent value="education" className="w-full">
                         <div className="flex flex-col gap-[30px] text-center xl:text-left">
@@ -270,9 +280,10 @@ const Resume = () =>{
                         </div>
                     </TabsContent>
                 </ScrollArea>
+                </motion.div>
             </Tabs>
         </div>       
-        </motion.div>
+    </motion.section>
     )
 }
 
