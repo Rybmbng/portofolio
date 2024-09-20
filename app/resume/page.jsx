@@ -73,10 +73,17 @@ const certificates = {
             icon:"/assets/logo/skilvul.png",
         },
         {
-            judul: "JavaScript Algorithms and Data Structures",
+            judul: "Legacy JavaScript Algorithms and Data Structures",
             teknologi: "JavaScript",
             penyelenggara: "Freecodecamp.org",
             url: "https://freecodecamp.org/certification/rybmbng/javascript-algorithms-and-data-structures?trk=public_profile_see-credential",
+            icon:<faFreCodeCamp />
+        },
+        {
+            judul: "JavaScript Algorithms and Data Structures(Beta)",
+            teknologi: "JavaScript",
+            penyelenggara: "Freecodecamp.org",
+            url: "https://www.freecodecamp.org/certification/rybmbng/javascript-algorithms-and-data-structures-v8",
             icon:<faFreCodeCamp />
         },
         {
